@@ -10,4 +10,4 @@ else
     exit 1
 fi
 
-docker run -d --restart always --env-file $ENV --name honeygain andarezta/honey
+docker run -d --restart always --env-file $ENV --name honey andarezta/honey
