@@ -13,10 +13,6 @@ Before you begin, ensure you have the following:
 
 1. Clone this repository to your local machine:
 
-   ```bash
-   git clone https://github.com/yourusername/honeygain-docker-arm64.git
-   ````
-
 2. Edit the login.conf file:
 
    - Open the login.conf file located in the repository.
@@ -25,7 +21,7 @@ Before you begin, ensure you have the following:
 3. Run the Docker container:
 
    ```bash
-   ./run.sh
+   ./run
    ````
 
    The Honeygain Docker container will start running, and your device will start contributing to the Honeygain network.
